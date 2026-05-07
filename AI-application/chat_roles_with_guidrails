@@ -1,0 +1,29 @@
+import os
+from dotenv import load_dotenv
+from openai import OpenAI
+
+load_dotenv()
+Api_key = os.getenv("OpenAi_API_key")
+
+
+def get_response(sys_msg):
+    client = OpenAI(api_key=Api_key)
+    response = client.chat.completions.create(
+        model="gpt-4o-mini",
+        max_completion_tokens=100,
+        messages=[{"role":"system","content":sys_msg},
+                  {"role":"system","content":"help me learn dutch"}
+                  ]
+    
+    ) 
+
+    return response.choices[0].message.content
+
+sys_msg = """You are a study planning assistant that creates plans for learning new skills.
+
+If these skills are non related to languages, return the message:
+
+'Apologies, to focus on languages, we no longer create learning plans on other topics.'
+"""
+
+print(get_response(sys_msg))
