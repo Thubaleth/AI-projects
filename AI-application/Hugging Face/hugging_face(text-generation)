@@ -1,0 +1,12 @@
+from transformers import pipeline
+
+
+generator = pipeline(task = "text-generation", model="distilgpt2")
+
+results = generator(
+    "In this course, we will teachyou how to",
+    max_length = 30,
+    num_return_sequences = 2,
+)
+
+print(results[0])
