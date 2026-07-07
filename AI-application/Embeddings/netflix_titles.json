@@ -1,0 +1,67 @@
+[
+    {
+        "show_id": "s1",
+        "title": "Dog Days",
+        "type": "Movie",
+        "director": "Ken Marino",
+        "cast": "Eva Longoria, Nina Dobrev",
+        "country": "United States",
+        "release_year": 2018,
+        "rating": "PG-13",
+        "duration": "113 min",
+        "listed_in": "Comedy, Drama",
+        "description": "A group of people discover how their lives become connected through their lovable dogs."
+    },
+    {
+        "show_id": "s2",
+        "title": "Benji",
+        "type": "Movie",
+        "director": "Brandon Camp",
+        "cast": "Gabriel Bateman, Darby Camp",
+        "country": "United States",
+        "release_year": 2018,
+        "rating": "PG",
+        "duration": "87 min",
+        "listed_in": "Family Movies",
+        "description": "A determined dog helps rescue two kidnapped children."
+    },
+    {
+        "show_id": "s3",
+        "title": "The Secret Life of Pets",
+        "type": "Movie",
+        "director": "Chris Renaud",
+        "cast": "Louis C.K., Eric Stonestreet",
+        "country": "United States",
+        "release_year": 2016,
+        "rating": "PG",
+        "duration": "90 min",
+        "listed_in": "Animation, Family",
+        "description": "A terrier and his canine friends embark on an adventure through New York City."
+    },
+    {
+        "show_id": "s4",
+        "title": "Space Mission",
+        "type": "Movie",
+        "director": "John Smith",
+        "cast": "Actor A, Actor B",
+        "country": "Canada",
+        "release_year": 2020,
+        "rating": "PG",
+        "duration": "105 min",
+        "listed_in": "Sci-Fi",
+        "description": "Astronauts travel across the galaxy to discover a new habitable planet."
+    },
+    {
+        "show_id": "s5",
+        "title": "Wildlife Rescue",
+        "type": "TV Show",
+        "director": "",
+        "cast": "",
+        "country": "Australia",
+        "release_year": 2021,
+        "rating": "TV-G",
+        "duration": "1 Season",
+        "listed_in": "Documentaries",
+        "description": "Animal experts rescue and rehabilitate injured wildlife."
+    }
+]
